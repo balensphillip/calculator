@@ -1,0 +1,38 @@
+{
+  "name": "my_calculator",
+  "version": "1.0.0",
+  "description": "A basic Cucumber.js calculator project to demonstrate how to synchronize SpecFlow projects with TFS (Azure DevOps) with SpecSync",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "cucumber-js features/Addition.feature"
+  },
+  "keywords": [
+    "bdd",
+    "cucumber",
+    "cucumber.js",
+    "spec solutions",
+    "gaspar nagy"
+  ],
+  "author": "Gaspar Nagy (Spec Solutions)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^5.1.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gasparnagy/specsync-basic-calculator-cucumber-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gasparnagy/specsync-basic-calculator-cucumber-js/issues"
+  },
+  "homepage": "https://github.com/gasparnagy/specsync-basic-calculator-cucumber-js#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.3.0"
+  }
+}
